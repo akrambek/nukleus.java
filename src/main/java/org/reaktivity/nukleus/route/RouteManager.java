@@ -41,4 +41,7 @@ public interface RouteManager
     void setThrottle(
         long streamId,
         MessageConsumer throttle);
+
+    String resolveTag(
+        long routeId);
 }
